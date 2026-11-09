@@ -1,9 +1,10 @@
 ---
 name: "Lint & Unit Tests"
 
-"on":
-  pull_request:
-
+# Triggers intentionally disabled for Argus-OSS-Security.
+# "on":
+#   pull_request:
+# 
 jobs:
   lint-unit:
     uses: test-kitchen/.github/.github/workflows/lint-unit.yml@main
